@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustPan"
+    tools:context="com.datapp.buzz_movieselector.controllers.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</TextView>-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/searchMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:windowSoftInputMode="adjustPan"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:id="@+id/search_button"
+        android:layout_gravity= "top|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:windowSoftInputMode="adjustPan" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="start|center_vertical">
+    </ListView>
+
+</FrameLayout>

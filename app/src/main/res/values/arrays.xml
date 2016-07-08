@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_majors">
+        <item>CS</item>
+        <item>CM</item>
+        <item>IE</item>
+        <item>ME</item>
+        <item>ChemE</item>
+        <item>BME</item>
+        <item>Business</item>
+    </string-array>
+
+    <string-array name="entryvalues_majors">
+        <item>CS</item>
+        <item>CM</item>
+        <item>IE</item>
+        <item>ME</item>
+        <item>ChemE</item>
+        <item>BME</item>
+        <item>Business</item>
+    </string-array>
+
+</resources>
